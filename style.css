@@ -18,17 +18,22 @@ body {
 
 /********** EXTRA DIV ***********/
 
-.footer{
+.footer {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(90deg, rgba(99, 2, 2, 1) 0%, rgba(166, 23, 23, 1) 50%, rgba(99, 2, 2, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 2, 2, 1) 0%,
+    rgba(166, 23, 23, 1) 50%,
+    rgba(99, 2, 2, 1) 100%
+  );
   position: fixed;
   top: 0;
   z-index: -1;
   color: white;
 }
 
-.sec1{
+.sec1 {
   height: 15vh;
   width: 100%;
   display: flex;
@@ -36,77 +41,77 @@ body {
   gap: 1vw;
 }
 
-.sec1 h1{
+.sec1 h1 {
   font-size: 1.5vw;
   font-weight: 300;
   margin-left: 3vw;
 }
 
-.sec1 h1 span{
+.sec1 h1 span {
   font-size: 3vw;
   font-family: cola;
   font-weight: 200;
 }
 
-.line1{
+.line1 {
   height: 3px;
   width: 75%;
   background-color: #ffffff;
 }
 
-.line2{
+.line2 {
   height: 3px;
   width: 93%;
   background-color: #ffffff;
   margin-left: 3vw;
 }
 
-.sec2{
+.sec2 {
   height: 50vh;
   width: 100%;
   display: flex;
   gap: 6vw;
 }
 
-.left{
+.left {
   display: flex;
   flex-direction: column;
   gap: 1vw;
   margin: 5vw 0 0 3vw;
 }
 
-.left h2{
+.left h2 {
   font-size: 1.1vw;
   font-weight: 400;
 }
 
-.right{
+.right {
   display: flex;
   flex-direction: column;
   gap: 1vw;
   margin: 5vw 0 0 3vw;
 }
 
-.right h2{
+.right h2 {
   font-size: 1.1vw;
   font-weight: 400;
 }
 
-.sec3{
+.sec3 {
   height: 35vh;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.sec3 h1{
+.sec3 h1 {
   font-size: 20vw;
   font-weight: 500;
   font-family: cola;
   margin-top: 3vw;
 }
 
-.cursor{
+.cursor {
   height: 10vh;
   width: 10vh;
   background-color: white;
@@ -120,7 +125,7 @@ body {
   cursor: none;
 }
 
-.cursor i{
+.cursor i {
   font-size: 3vw;
   color: #cc2424;
 }
@@ -129,13 +134,18 @@ body {
 .page1 {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(90deg, rgba(99, 2, 2, 1) 0%, rgba(166, 23, 23, 1) 50%, rgba(99, 2, 2, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 2, 2, 1) 0%,
+    rgba(166, 23, 23, 1) 50%,
+    rgba(99, 2, 2, 1) 100%
+  );
   position: relative;
   overflow: hidden;
   cursor: none;
 }
 
-.logo{
+.logo {
   font-size: 4vw;
   font-family: cola;
   color: white;
@@ -159,7 +169,7 @@ body {
   position: absolute;
   z-index: 5;
   top: -4%;
-  transform: scale(1.7) rotate(5deg);
+  transform: scale(1.8) rotate(5deg);
 }
 
 /********** PAGE2 ***********/
@@ -201,7 +211,7 @@ body {
 
 .text div i {
   font-size: 2vw;
-  color: #cc2424
+  color: #cc2424;
 }
 
 .page2-detail {
@@ -306,19 +316,19 @@ body {
   top: 0;
 }
 
-.img-container1 img{
+.img-container1 img {
   transform: translate(30%, 120%) rotate(-6deg);
 }
 
-.img-container2 img{
+.img-container2 img {
   transform: translate(30%, 120%) rotate(-6deg);
 }
 
-.img-container3 img{
+.img-container3 img {
   transform: translate(30%, 120%) rotate(-6deg);
 }
 
-.img-container4 img{
+.img-container4 img {
   transform: translate(30%, 120%) rotate(-6deg);
 }
 
@@ -329,46 +339,39 @@ body {
   width: 100%;
   background-color: black;
   cursor: none;
+  position: relative;
 }
 
-.video-container{
+canvas {
   height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.video-container video{
-  height: 30%;
-  width: 50%;
-  object-fit: cover;
+  width: 100vw;
 }
 
 /********** PAGE5 ***********/
 
-.page5{
+.page5 {
   min-height: 100vh;
   width: 100%;
   background-color: white;
 }
 
-.container{
+.container {
   min-height: 100vh;
   width: 100%;
 }
 
-.elem-head{
+.elem-head {
   font-size: 3vw;
   padding: 2vw;
   font-weight: 500;
   pointer-events: none;
 }
 
-.elem1{
-   border-top: 1px solid gray;
+.elem1 {
+  border-top: 1px solid gray;
 }
 
-.elem{
+.elem {
   height: 15vh;
   width: 100%;
   border-bottom: 1px solid gray;
@@ -376,7 +379,7 @@ body {
   align-items: center;
 }
 
-.elem h1{
+.elem h1 {
   font-size: 2vw;
   font-weight: 400;
   margin-left: 2vw;
@@ -396,7 +399,7 @@ body {
   justify-content: center;
 }
 
-.msg h1{
+.msg h1 {
   font-size: 3.2vw;
   font-weight: 400;
   color: #cc2424;
